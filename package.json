@@ -1,0 +1,11 @@
+{
+  "name": "beatsloop-api",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+  }
+}
