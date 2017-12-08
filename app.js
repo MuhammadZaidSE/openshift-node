@@ -4,7 +4,7 @@ const http = require('http');
 var port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
 var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
 
-let origin, key, url;
+var origin, key, url;
 
 http.createServer(function(req, res) {
     // origin = req.headers['origin'];
